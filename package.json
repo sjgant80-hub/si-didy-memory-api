@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/si-didy-memory-api",
+  "version": "1.0.0",
+  "description": "si-didy-memory HTTP API · Express wrapper around @ai-native-solutions/si-didy-memory-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["si-didy-memory", "api", "http", "express", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/si-didy-memory-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@ai-native-solutions/si-didy-memory-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
